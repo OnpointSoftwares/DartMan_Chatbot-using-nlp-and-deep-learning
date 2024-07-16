@@ -113,8 +113,8 @@ def getRes(firstlist, fJson):
   return ourResult
   import joblib
 joblib.dump(ourNewModel,"model.pkl")
-while True:
+"""while True:
     newMessage = input("")
     intents = Pclass(newMessage, newWords, ourClasses)
     ourResult = getRes(intents, data)
-    print(ourResult)
+    print(ourResult)"""

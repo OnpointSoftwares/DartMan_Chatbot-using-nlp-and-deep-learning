@@ -2,38 +2,48 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hello", "Hi", "Hey", "Greetings"],
-      "responses": ["Hello! How can I help you today?", "Hi there! What can I assist you with?", "Hey! Welcome to Onpoint Delivery Shop."]
+      "patterns": ["Hello", "Hi", "Hey", "Greetings", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you with your shopping today?", "Hi there! Ready to find some great deals?", "Hey! Welcome to our shop. How can I help you?", "Greetings! How can I make your shopping experience better today?"]
     },
     {
       "tag": "about_us",
-      "patterns": ["Tell me about your shop", "What is Onpoint Delivery Shop?", "Who are you?"],
-      "responses": ["Onpoint Delivery Shop is your one-stop destination for fresh vegetables, fruits, and Arduino components. We are committed to delivering quality products to your doorstep."]
+      "patterns": ["Tell me about your shop", "What is this shop?", "Who are you?", "Tell me about your business", "What do you do?"],
+      "responses": ["We are an online marketplace offering a wide range of products, from groceries and electronics to fashion and home goods. Our mission is to provide quality products and excellent customer service.", "Our shop offers a variety of products including groceries, electronics, fashion items, and home goods. We aim to make your shopping experience seamless and enjoyable."]
     },
     {
       "tag": "products",
-      "patterns": ["What products do you sell?", "Tell me about your offerings", "What can I buy?"],
-      "responses": ["We offer a wide range of fresh vegetables, fruits, and Arduino components. Explore our website to see our full product catalog."]
+      "patterns": ["What products do you sell?", "Tell me about your offerings", "What can I buy?", "Do you have any products?", "What items do you have?"],
+      "responses": ["We offer a diverse selection of products including groceries, electronics, fashion, home goods, and more. Visit our product catalog on our website to see all the items available.", "You can explore a wide range of products in our shop, including groceries, electronics, fashion items, and home goods. Check our online store for more details."]
     },
     {
       "tag": "delivery",
-      "patterns": ["How does delivery work?", "Tell me about your delivery process", "Do you deliver to my area?"],
-      "responses": ["We provide reliable delivery services to ensure your products reach you on time. Simply place an order on our website, and we'll take care of the rest. We currently deliver to areas around Kabarak University."]
+      "patterns": ["How does delivery work?", "Tell me about your delivery process", "Do you deliver to my area?", "What are your delivery options?", "Where do you deliver?"],
+      "responses": ["We provide reliable delivery services to ensure your products reach you on time. Simply place an order on our website, and we'll take care of the rest. Delivery areas and times may vary based on location.", "Our delivery process is designed to be efficient and timely. Place an order online and we'll deliver to your specified location. Please check our website for delivery areas and schedules."]
     },
     {
       "tag": "contact",
-      "patterns": ["How can I contact you?", "What's your contact information?", "Tell me your phone number"],
-      "responses": ["You can reach us at contact@onpointdeliveryshop.com or call us at +123456789. Feel free to contact us for any inquiries or assistance."]
+      "patterns": ["How can I contact you?", "What's your contact information?", "Tell me your phone number", "How do I get in touch with you?", "I need your contact details"],
+      "responses": ["You can reach us at support@ourshop.com or call us at +123456789. Feel free to contact us for any inquiries or assistance.", "For any questions or support, email us at support@ourshop.com or call +123456789."]
     },
     {
       "tag": "order",
-      "patterns": ["How do I place an order?", "Can I order online?", "Tell me about the ordering process"],
-      "responses": ["Placing an order is easy! Simply browse our website, add the desired items to your cart, and proceed to checkout. Follow the instructions to complete your order."]
+      "patterns": ["How do I place an order?", "Can I order online?", "Tell me about the ordering process", "How can I make a purchase?", "What's the process for ordering?"],
+      "responses": ["Placing an order is easy! Simply browse our website, add the desired items to your cart, and proceed to checkout. Follow the instructions to complete your order.", "You can place an order online by selecting your items and checking out through our website."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["How can I pay?", "What payment methods do you accept?", "How do I make a payment?", "What are your payment options?"],
+      "responses": ["We accept various payment methods including credit/debit cards, PayPal, and mobile payments. Choose the option that is most convenient for you at checkout.", "You can pay using credit/debit cards, PayPal, or mobile payments. Select your preferred payment method at the checkout."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How do I return an item?", "What is your return policy?", "Can I return a product?", "Tell me about your returns process"],
+      "responses": ["If you're not satisfied with your purchase, you can return it within 30 days for a full refund. Please visit our Returns Policy page for more details.", "Our return policy allows you to return products within 30 days. Please check our website for the detailed return process and guidelines."]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thank you", "Thanks", "Appreciate it"],
-      "responses": ["You're welcome! If you have any more questions or need assistance, feel free to ask."]
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot", "Thank you so much"],
+      "responses": ["You're welcome! If you have any more questions or need further assistance, feel free to ask.", "No problem! If you need more help, don't hesitate to reach out."]
     }
   ]
 }

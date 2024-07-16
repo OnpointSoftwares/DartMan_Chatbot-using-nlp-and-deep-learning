@@ -96,12 +96,13 @@ def getRes(firstlist, fJson):
 async def handle_popup_chatbot(item: Item):
     try:
         user_input = item.text
+        print(user_input)
         # Process the message using the chatbot logic
         intents = Pclass(user_input, newWords, ourClasses)
         chatbot_response = getRes(intents, data)
 
         # Return the chatbot response along with user input
-        return {"user_input": user_input, "chatbot_response":chatbot_response}
+        return chatbot_response
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
